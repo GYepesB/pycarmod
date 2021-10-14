@@ -7,4 +7,7 @@ pygame.init()
 
 #call main routine
 size = [1300, 600] # Define size of windows
-main2(size)
+
+
+titulo = input("Insertar el titulo: ")
+main2(size, titulo)
