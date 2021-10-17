@@ -6,8 +6,21 @@ from main_functions import *
 pygame.init()
 
 #call main routine
-size = [1300, 600] # Define size of windows
-
-
 titulo = input("Insertar el titulo: ")
-main2(size, titulo)
+
+# Define size of windows
+height = int(input("Altura:"))
+width = int(input("Ancho:"))
+
+size = (width, height)
+
+
+colorR = int (input("Verde:"))
+colorV = int (input("Rojo:"))
+colorH = int (input("Azul:"))
+colordefondo = (colorR, colorV, colorH)
+
+
+main2(size, titulo, colordefondo)
+
+
